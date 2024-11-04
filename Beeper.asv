@@ -1,0 +1,7 @@
+brick.ResetMotorAngle('A');
+brick.ResetMotorAngle('B');
+
+brick.MoveMotorAngleRel('A', 50, -360, 'Brake');
+brick.MoveMotorAngleRel('B', 50, -360, 'Brake');
+
+brick.playTone(100, 800, 500)
